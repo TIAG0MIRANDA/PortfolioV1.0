@@ -1,0 +1,146 @@
+/* RESET GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* VARIÁVEIS DE COR */
+:root {
+    --cor0: #8bb4c2;
+    --cor1: #A47240;
+    --cor2: #E3892B;
+    --cor3: #4A7D8E;
+    --cor4: #635445;
+    --cor5: #313739;
+}
+
+/* COR DE FUNDO */
+body {
+    background-color: #000000;
+}
+
+/* HEADER */
+header {
+    background-color: var(--cor0);
+
+}
+
+header>h1,
+header>h2 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    padding: 20px 0;
+}
+
+header>h2 {
+    padding-bottom: 20px;
+}
+
+/* DESTAQUE DE TEXTO */
+#m1 {
+    color: #e44d26;
+}
+
+#m2 {
+    color: #264de4;
+}
+
+/* NAVBAR */
+nav {
+    padding: 10px;
+    background-color: var(--cor2);
+}
+
+/* MAIN */
+main {
+    background-color: var(--cor0);
+    margin: 20px 0;
+    padding: 20px;
+}
+
+main>div {
+    border: solid 1px;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: var(--cor5);
+    border-radius: 15px;
+    border: solid 1px black;
+    box-shadow: 2px 2px 2px black;
+}
+
+main>div>h1 {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+main>div>p {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+/* PROJETOs */
+#projetos {
+    margin-top: 20px;
+
+}
+
+.card-projeto {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-decoration: none;
+    box-shadow: 2px 2px 2px black;
+    border: solid 1px black;
+    padding: 50px;
+    display: block;
+    letter-spacing: 1px;
+    margin: 20px 0px;
+    border-radius: 15px;
+}
+
+.card-projeto:hover {
+    background-color: var(--cor3);
+}
+
+/* FOOTER */
+
+footer {
+    padding: 20px;
+    background-color: var(--cor0);
+}
+
+footer>h1 {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+a {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-decoration: none;
+    box-shadow: 2px 2px 2px black;
+    border: solid 1px black;
+    padding: 20px;
+    display: block;
+    letter-spacing: 1px;
+    margin: 20px 0px;
+    border-radius: 15px;
+    background-color: var(--cor5);
+}
+
+a:hover {
+    background-color: var(--cor2);
+    color: black;
+    text-shadow: none;
+
+}
+
+img {
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
